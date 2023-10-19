@@ -9,6 +9,18 @@ npm-debug.*
 *.mobileprovision
 *.orig.*
 web-build/
+mocks/
 
 # macOS
 .DS_Store
+
+# ignores all .env files
+.env
+.env*
+
+# package managers
+.yarn
+yarn.lock
+.yarnrc
+yarn-debug.log*
+yarn-error.log*
